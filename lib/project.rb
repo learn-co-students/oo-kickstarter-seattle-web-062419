@@ -11,6 +11,7 @@ class Project
 
     def add_backer(backer)
         # binding.pry
+        # Throw a binding.pry in here to check what self really is
         @backers << backer
         backer.backed_projects << self
     end
